@@ -1,0 +1,19 @@
+# Core packages
+streamlit>=1.30
+streamlit-autorefresh>=0.1.0
+streamlit-ace>=0.1.1
+
+# WebSocket client
+websocket-client>=1.6.1
+
+# HTTP requests
+requests>=2.31
+
+# Optional: for basic auth (used by requests)
+urllib3>=2.0
+
+# If using Python 3.11+
+typing-extensions>=4.5.0
+
+# Optional but useful during development
+watchdog>=3.0.0
