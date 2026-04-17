@@ -43,7 +43,7 @@ defaults = {
     "rule_has_been_updated": False,
     "post_update_messages": [],
     "show_updated_rule_preview": False,
-    "sub_message": '{"type": "subscribe", "path": "AI.Reasoner.InferenceResults", "instance": "VIN123", "schema": "Vehicle"}',
+    "sub_message": '{"jsonrpc": "2.0", "method": "subscribe", "id": "1", "params": {"instance": "VINABCD1234567890", "schema": "Vehicle", "path": "AI.Reasoner.InferenceResults"}}',
     "ws_open": False
 }
 
